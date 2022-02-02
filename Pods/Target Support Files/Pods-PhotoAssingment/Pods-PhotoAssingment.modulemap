@@ -1,0 +1,6 @@
+framework module Pods_PhotoAssingment {
+  umbrella header "Pods-PhotoAssingment-umbrella.h"
+
+  export *
+  module * { export * }
+}
