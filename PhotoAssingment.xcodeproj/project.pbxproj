@@ -13,9 +13,14 @@
 		8AB8FBAF27AA9B4600D004D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8FBAD27AA9B4600D004D4 /* Main.storyboard */; };
 		8AB8FBB127AA9B4800D004D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8FBB027AA9B4800D004D4 /* Assets.xcassets */; };
 		8AB8FBB427AA9B4800D004D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8FBB227AA9B4800D004D4 /* LaunchScreen.storyboard */; };
+		8AB8FBBC27AA9B6600D004D4 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8FBBB27AA9B6600D004D4 /* PhotoViewController.swift */; };
+		8AB8FBBE27AA9B7900D004D4 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8FBBD27AA9B7900D004D4 /* FavoriteViewController.swift */; };
+		8AB8FBC027AA9BF700D004D4 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8FBBF27AA9BF700D004D4 /* ImageCollectionViewCell.swift */; };
+		DA67A2AE48AD24D0D921C206 /* Pods_PhotoAssingment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA15B9DAA4F1B1399BDCD94 /* Pods_PhotoAssingment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34024C2CBDA03873AC8DC170 /* Pods-PhotoAssingment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoAssingment.debug.xcconfig"; path = "Target Support Files/Pods-PhotoAssingment/Pods-PhotoAssingment.debug.xcconfig"; sourceTree = "<group>"; };
 		8AB8FBA427AA9B4600D004D4 /* PhotoAssingment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAssingment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AB8FBA727AA9B4600D004D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AB8FBA927AA9B4600D004D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		8AB8FBB027AA9B4800D004D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB8FBB327AA9B4800D004D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AB8FBB527AA9B4800D004D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB8FBBB27AA9B6600D004D4 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		8AB8FBBD27AA9B7900D004D4 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		8AB8FBBF27AA9BF700D004D4 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		8FCD31D73415BB2CC6B2D9AC /* Pods-PhotoAssingment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoAssingment.release.xcconfig"; path = "Target Support Files/Pods-PhotoAssingment/Pods-PhotoAssingment.release.xcconfig"; sourceTree = "<group>"; };
+		FEA15B9DAA4F1B1399BDCD94 /* Pods_PhotoAssingment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoAssingment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA67A2AE48AD24D0D921C206 /* Pods_PhotoAssingment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				8AB8FBA627AA9B4600D004D4 /* PhotoAssingment */,
 				8AB8FBA527AA9B4600D004D4 /* Products */,
+				AA396FEEBF3EDA60E2C874D4 /* Pods */,
+				94ED1EB7E6DF804F080AA186 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,33 @@
 				8AB8FBA727AA9B4600D004D4 /* AppDelegate.swift */,
 				8AB8FBA927AA9B4600D004D4 /* SceneDelegate.swift */,
 				8AB8FBAB27AA9B4600D004D4 /* ViewController.swift */,
+				8AB8FBBB27AA9B6600D004D4 /* PhotoViewController.swift */,
+				8AB8FBBD27AA9B7900D004D4 /* FavoriteViewController.swift */,
+				8AB8FBBF27AA9BF700D004D4 /* ImageCollectionViewCell.swift */,
 				8AB8FBAD27AA9B4600D004D4 /* Main.storyboard */,
 				8AB8FBB027AA9B4800D004D4 /* Assets.xcassets */,
 				8AB8FBB227AA9B4800D004D4 /* LaunchScreen.storyboard */,
 				8AB8FBB527AA9B4800D004D4 /* Info.plist */,
 			);
 			path = PhotoAssingment;
+			sourceTree = "<group>";
+		};
+		94ED1EB7E6DF804F080AA186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA15B9DAA4F1B1399BDCD94 /* Pods_PhotoAssingment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA396FEEBF3EDA60E2C874D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34024C2CBDA03873AC8DC170 /* Pods-PhotoAssingment.debug.xcconfig */,
+				8FCD31D73415BB2CC6B2D9AC /* Pods-PhotoAssingment.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AB8FBB827AA9B4800D004D4 /* Build configuration list for PBXNativeTarget "PhotoAssingment" */;
 			buildPhases = (
+				C4B550367080C6D514542891 /* [CP] Check Pods Manifest.lock */,
 				8AB8FBA027AA9B4600D004D4 /* Sources */,
 				8AB8FBA127AA9B4600D004D4 /* Frameworks */,
 				8AB8FBA227AA9B4600D004D4 /* Resources */,
+				558D44217D9DABCE96A1B46F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +169,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		558D44217D9DABCE96A1B46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoAssingment/Pods-PhotoAssingment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoAssingment/Pods-PhotoAssingment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoAssingment/Pods-PhotoAssingment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B550367080C6D514542891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoAssingment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AB8FBA027AA9B4600D004D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB8FBC027AA9BF700D004D4 /* ImageCollectionViewCell.swift in Sources */,
 				8AB8FBAC27AA9B4600D004D4 /* ViewController.swift in Sources */,
+				8AB8FBBC27AA9B6600D004D4 /* PhotoViewController.swift in Sources */,
 				8AB8FBA827AA9B4600D004D4 /* AppDelegate.swift in Sources */,
 				8AB8FBAA27AA9B4600D004D4 /* SceneDelegate.swift in Sources */,
+				8AB8FBBE27AA9B7900D004D4 /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +365,7 @@
 		};
 		8AB8FBB927AA9B4800D004D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34024C2CBDA03873AC8DC170 /* Pods-PhotoAssingment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +394,7 @@
 		};
 		8AB8FBBA27AA9B4800D004D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCD31D73415BB2CC6B2D9AC /* Pods-PhotoAssingment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
